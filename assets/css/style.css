@@ -1,0 +1,103 @@
+.all_content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header_row {
+    /*коммент для себя, сейчас в верстке все выглядит нормально, но, если добавить контента, то он будет в столбик!!!*/
+    flex: 1 1 auto;
+    background-color: rgb(105, 210, 245);
+}
+
+.header_text,
+.main_text,
+.aside_text,
+.ms_text_1,
+.ms_text_2,
+.ms_text_3,
+.fs_text1,
+.fs_text2,
+.fs_text3,
+.fs_text4 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.center_cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    height: 75vh;
+}
+
+.main_text {
+    flex: 1 1 auto;
+}
+
+.main_column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 65vw;
+    background-color: rgb(165, 223, 252);
+}
+
+.main_row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.mr_1,
+.mr_2 {
+    width: 43%;
+    height: 33%;
+    margin-bottom: 4%;
+    margin-right: 2%;
+    border-radius: 10px;
+    background-color: rgba(78, 139, 161, 0.4);
+}
+
+.mr_2 {
+    margin-left: 2%;
+}
+
+.mr_3 {
+    margin: 5px;
+    width: 90%;
+    height: 33%;
+    border-radius: 10px;
+    background-color: rgba(78, 139, 161, 0.4);
+}
+
+.aside_column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35vw;
+    background-color: rgb(189, 226, 208);
+}
+
+.footer_fcont {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: rgb(105, 210, 245);
+}
+
+.footer_sect1,
+.footer_sect2,
+.footer_sect3,
+.footer_sect4 {
+    width: 23vw;
+    margin: 15px 10px;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgba(78, 139, 161, 0.4);
+    border-radius: 10px;
+}
